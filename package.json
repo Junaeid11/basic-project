@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start:dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "format": "prettier . --write",
     "build": "tsc",
     "lint": "eslint src",
@@ -17,6 +18,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
+    "mongodb": "^6.10.0",
     "mongoose": "^8.8.1",
     "typescript": "^5.6.3"
   },
