@@ -9,7 +9,7 @@ export type Guardian ={
 }
 export type UserName={
     firstName: string;
-    MiddleName: string;
+    middleName: string;
     lastName: string;
 }
 export type LocalGuardian ={
@@ -34,5 +34,5 @@ export type Student ={
     presentAddress: string;
     permanentAddress: string;
     guardian: Guardian;
-    localGuardian: LocalGuardian;
+    localGuardian?: LocalGuardian;
   }
